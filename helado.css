@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+background-image:url(https://i.postimg.cc/sxvKnNXC/image.png);
+background-repeat: no-repeat;
+background-size: 100%;
+  }
+
+  h1, h2, h3 {
+    color: #7d8ff1;
+
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  header {
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  nav {
+
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  section {
+    padding: 20px;
+  }
+
+  div {
+    text-align: center;
+  }
