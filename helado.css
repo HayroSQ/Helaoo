@@ -1,61 +1,88 @@
 body {
-    font-family: Arial, sans-serif;
-background-image:url(https://thumbs.dreamstime.com/b/hermoso-arte-fondo-abstracto-azul-violeta-degradado-cielo-pintura-al-%C3%B3leo-sobre-lienzo-dibujado-mano-por-el-artista-174833630.jpg);
-background-repeat: no-repeat;
-background-size: 100%;
-  }
-main {
-
-    margin-top: 200px;
-    margin: 100px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://images.unsplash.com/photo-1607162378992-57ff73eeb157?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&w=1000&q=80);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-h1, h2, h3 {
-    color: #7d8ff1;
-    
-  }
-
 header {
-    padding: 20px;
-    text-align: center;
-  }
-.logo{
-    margin-left:50px ;
+padding: 50px;
+margin-top: -35px;
 }
-  .botones {
-    text-align: right;
-    margin-right: 100px;
-    margin-top: -80px;
+.dropdown{
+  list-style: none;
+  float: right;
+  margin-top: -100px;
+}
+.dropdown-content {
+display: inline;
+float: left;
+list-style: none;
+font-size: 50px;
+color: #1fec04;
+background-color: #ffffff52;
+min-width: 300px;
+z-index: 1;
+opacity: 0;
+transition: opacity 0.3s ease;
+
+}
+       
+.dropdown.open .dropdown-content {
+display: block;
+opacity: 1;
+}
+ul.dropdown-content .lista{
+text-decoration: none;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff2d;
+  padding: 200px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section{
+  margin: 10px;
+  padding: 10px;
+}
+.slider-present{
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
 }
 
-a {
-    text-decoration: none;
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-nav {
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.card p {
+  line-height: 1.5;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  margin-top: 40%;
 
-    padding: 10px;
-  }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-ul {
-      display: inline-flex;
-      list-style: none;
-      gap: 16px;
-  }
-  
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-section {
-    padding: 20px;
-  }
-div {
-    text-align: center;
-  }
+}
